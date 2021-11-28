@@ -1,0 +1,27 @@
+This document describes python version used for development, Flask installation, virtual environment activate, environment variables setup and app run.
+
+After clone from https://github.com/dejun-yang426/SportsBook.git to <clone_directory>
+
+1. python version: 3.9
+
+2. Flask installation: 
+      > pip install Flask
+
+3. virtual environment active: 
+      > cd <clone_directory>/venv/Scripts/
+      > activate
+
+4. environment variables setup:
+      > cd <clone_directory>
+   Linux:
+     $ export FLASK_ENV=development
+     $ export FLASK_APP=app.py
+   Windows:
+     > set FLASK_ENV=development
+     > set FLASK_APP=app.py
+
+5. run application:
+     > flask run
+   
+
+
